@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <title>Conversor de Divisas</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
     
@@ -15,10 +17,22 @@
         <img src="" alt="">
         <h1 class="title">Conversor de Divisas</h1>
     </div> 
-    <div id= "container"></div>     
+    <div id= "container">
+        <label id ="cajaConversion">
+            <p id="parrafoDeCantidad">Cantidad:</p>
+            <input type="number" id ="numberDeEntrada" min ="0">
+            <select id="firstSelect">
+            </select>
+            <select id="secondSelect">
+            </select>
+        </label>
+    </div>     
     
-    <div id = "footer">hola</div>
+    <div id = "footer">
+        <p>Designed and built by <a href="https://github.com/Sebastian-Carbajal" target="_blank"> Sebastian Carbajal <i class="bx bxl-github"></i> </a> </p>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.6/dist/sweetalert2.all.min.js"></script>
 <script src= "script.js"></script>    
 </body>
-
 </html>

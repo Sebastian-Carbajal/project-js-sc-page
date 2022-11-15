@@ -1,0 +1,79 @@
+[
+    {
+        "divisa": "Pesos argentinos",
+        "conversionesArs" : {
+            "arsToUsd": 0.006,
+            "arsToGbp": 0.005,
+            "arsToEur": 0.006,
+            "arsToPen": 0.024,
+            "arsToJpy": 0.868,
+            "arsToChf": 0.005
+        }
+    },
+    {
+        "divisa": "Dolares",
+        "conversionesUsd" : {
+            "usdToArs": 160.44,
+            "usdToGbp": 0.85,
+            "usdToEur": 0.97,
+            "usdToPen": 3.854,
+            "usdToJpy": 139.35,
+            "usdToChf": 0.946
+        }
+    },
+    {
+        "divisa": "Libras esterlinas",
+        "conversionesGbp" : {
+            "gbpToArs": 188.63,
+            "gbpToUsd": 1.17,
+            "gbpToEur": 1.14,
+            "gbpToPen": 4.53,
+            "gbpToJpy": 164.00,
+            "gbpToChf": 1.11
+        }
+    },
+    {
+        "divisa": "Euros",
+        "conversionesEur" : {
+            "eurToArs": 165.41,
+            "eurToUsd": 1.03,
+            "eurToGbp": 0.87,
+            "eurToPen": 3.97,
+            "eurToJpy": 143.76,
+            "eurToChf": 0.97
+        }
+    },  
+    {
+        "divisa": "Soles peruanos",
+        "conversionesPen" : {
+            "penToArs": 41.65,
+            "penToUsd": 0.25,
+            "penToGbp": 0.22,
+            "penToEur": 0.25,
+            "penToJpy": 36.00,
+            "penToChf": 0.24
+        }
+    },
+    {
+        "divisa": "Yenes",
+        "conversionesJpy" : {
+            "jpyToArs": 1.14,
+            "jpyToUsd": 0.007,
+            "jpyToGbp": 0.006,
+            "jpyToEur": 0.006,
+            "jpyToPen": 0.027,
+            "jpyToChf": 0.006
+        }
+    },
+    {
+        "divisa": "Francos suizos",
+        "conversionesChf" : {
+            "chfToArs": 169.36,
+            "chfToUsd": 1.05,
+            "chfToGbp": 0.89,
+            "chfToEur": 1.02,
+            "chfToPen": 4.06,
+            "chfToJpy": 147.2
+        }
+    }
+]
